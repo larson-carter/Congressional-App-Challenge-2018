@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D764505820CF24B000490D0A /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 		D7F8017720CF1C3B00B8CA7F /* Congressional App Challenge 2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Congressional App Challenge 2018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F8017A20CF1C3B00B8CA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F8017D20CF1C3B00B8CA7F /* Congressional_App_Challenge_2018.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Congressional_App_Challenge_2018.xcdatamodel; sourceTree = "<group>"; };
@@ -54,7 +55,7 @@
 		D7F8019B20CF1C3D00B8CA7F /* Congressional App Challenge 2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Congressional App Challenge 2018UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F8019F20CF1C3D00B8CA7F /* Congressional_App_Challenge_2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Congressional_App_Challenge_2018UITests.swift; sourceTree = "<group>"; };
 		D7F801A120CF1C3D00B8CA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7F801AE20CF226300B8CA7F /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		D7F801AE20CF226300B8CA7F /* Congressional App Challenge 2018-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Congressional App Challenge 2018-Bridging-Header.h"; sourceTree = "<group>"; };
 		D7F801AF20CF226300B8CA7F /* feedback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = feedback.h; sourceTree = "<group>"; };
 		D7F801B020CF226300B8CA7F /* feedback.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = feedback.c; sourceTree = "<group>"; };
 		D7F801B420CF22B500B8CA7F /* codetracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = codetracking.h; sourceTree = "<group>"; };
@@ -90,6 +91,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D764505420CF23DF00490D0A /* SCENES */ = {
+			isa = PBXGroup;
+			children = (
+				D764505620CF241300490D0A /* INITIAL LOAD */,
+				D764505520CF23F400490D0A /* LOADING SCREEN */,
+			);
+			path = SCENES;
+			sourceTree = "<group>";
+		};
+		D764505520CF23F400490D0A /* LOADING SCREEN */ = {
+			isa = PBXGroup;
+			children = (
+				D7F8018820CF1C3D00B8CA7F /* LaunchScreen.storyboard */,
+			);
+			path = "LOADING SCREEN";
+			sourceTree = "<group>";
+		};
+		D764505620CF241300490D0A /* INITIAL LOAD */ = {
+			isa = PBXGroup;
+			children = (
+				D7F8017F20CF1C3B00B8CA7F /* MasterViewController.swift */,
+				D7F8018120CF1C3B00B8CA7F /* DetailViewController.swift */,
+				D7F8018320CF1C3B00B8CA7F /* Main.storyboard */,
+			);
+			path = "INITIAL LOAD";
+			sourceTree = "<group>";
+		};
+		D764505720CF242B00490D0A /* DELEGATES */ = {
+			isa = PBXGroup;
+			children = (
+				D7F8017A20CF1C3B00B8CA7F /* AppDelegate.swift */,
+			);
+			path = DELEGATES;
+			sourceTree = "<group>";
+		};
 		D7F8016E20CF1C3B00B8CA7F = {
 			isa = PBXGroup;
 			children = (
@@ -113,13 +149,10 @@
 		D7F8017920CF1C3B00B8CA7F /* Congressional App Challenge 2018 */ = {
 			isa = PBXGroup;
 			children = (
+				D764505720CF242B00490D0A /* DELEGATES */,
+				D764505420CF23DF00490D0A /* SCENES */,
 				D7F801AD20CF223E00B8CA7F /* TERMINAL-DEBUGGING */,
-				D7F8017A20CF1C3B00B8CA7F /* AppDelegate.swift */,
-				D7F8017F20CF1C3B00B8CA7F /* MasterViewController.swift */,
-				D7F8018120CF1C3B00B8CA7F /* DetailViewController.swift */,
-				D7F8018320CF1C3B00B8CA7F /* Main.storyboard */,
 				D7F8018620CF1C3D00B8CA7F /* Assets.xcassets */,
-				D7F8018820CF1C3D00B8CA7F /* LaunchScreen.storyboard */,
 				D7F8018B20CF1C3D00B8CA7F /* Info.plist */,
 				D7F8017C20CF1C3B00B8CA7F /* Congressional_App_Challenge_2018.xcdatamodeld */,
 			);
@@ -147,6 +180,7 @@
 		D7F801AD20CF223E00B8CA7F /* TERMINAL-DEBUGGING */ = {
 			isa = PBXGroup;
 			children = (
+				D7F801AE20CF226300B8CA7F /* Congressional App Challenge 2018-Bridging-Header.h */,
 				D7F801B720CF22C800B8CA7F /* COMPILE-DEBUGGING */,
 				D7F801B320CF229000B8CA7F /* CODE-TRACKING */,
 				D7F801B220CF227F00B8CA7F /* FEEDBACK */,
@@ -159,7 +193,7 @@
 			children = (
 				D7F801AF20CF226300B8CA7F /* feedback.h */,
 				D7F801B020CF226300B8CA7F /* feedback.c */,
-				D7F801AE20CF226300B8CA7F /* header.h */,
+				D764505820CF24B000490D0A /* header.h */,
 			);
 			path = FEEDBACK;
 			sourceTree = "<group>";
