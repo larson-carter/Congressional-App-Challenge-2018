@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7CF870E20CF25DA007D107D /* NOTES.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CF870D20CF25DA007D107D /* NOTES.swift */; };
+		D7CF871020CF25FB007D107D /* NOTES.c in Sources */ = {isa = PBXBuildFile; fileRef = D7CF870F20CF25FB007D107D /* NOTES.c */; };
+		D7CF871220CF2612007D107D /* NOTES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D7CF871120CF2612007D107D /* NOTES.cpp */; };
+		D7CF871420CF262B007D107D /* NOTES.metal in Sources */ = {isa = PBXBuildFile; fileRef = D7CF871320CF262B007D107D /* NOTES.metal */; };
 		D7F8017B20CF1C3B00B8CA7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8017A20CF1C3B00B8CA7F /* AppDelegate.swift */; };
 		D7F8017E20CF1C3B00B8CA7F /* Congressional_App_Challenge_2018.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7F8017C20CF1C3B00B8CA7F /* Congressional_App_Challenge_2018.xcdatamodeld */; };
 		D7F8018020CF1C3B00B8CA7F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8017F20CF1C3B00B8CA7F /* MasterViewController.swift */; };
@@ -40,6 +44,11 @@
 
 /* Begin PBXFileReference section */
 		D764505820CF24B000490D0A /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		D7CF870C20CF25B8007D107D /* NOTES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOTES.h; sourceTree = "<group>"; };
+		D7CF870D20CF25DA007D107D /* NOTES.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOTES.swift; sourceTree = "<group>"; };
+		D7CF870F20CF25FB007D107D /* NOTES.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = NOTES.c; sourceTree = "<group>"; };
+		D7CF871120CF2612007D107D /* NOTES.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NOTES.cpp; sourceTree = "<group>"; };
+		D7CF871320CF262B007D107D /* NOTES.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = NOTES.metal; sourceTree = "<group>"; };
 		D7F8017720CF1C3B00B8CA7F /* Congressional App Challenge 2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Congressional App Challenge 2018.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F8017A20CF1C3B00B8CA7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F8017D20CF1C3B00B8CA7F /* Congressional_App_Challenge_2018.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Congressional_App_Challenge_2018.xcdatamodel; sourceTree = "<group>"; };
@@ -126,6 +135,18 @@
 			path = DELEGATES;
 			sourceTree = "<group>";
 		};
+		D7CF870B20CF2590007D107D /* NOTES */ = {
+			isa = PBXGroup;
+			children = (
+				D7CF870C20CF25B8007D107D /* NOTES.h */,
+				D7CF870D20CF25DA007D107D /* NOTES.swift */,
+				D7CF870F20CF25FB007D107D /* NOTES.c */,
+				D7CF871120CF2612007D107D /* NOTES.cpp */,
+				D7CF871320CF262B007D107D /* NOTES.metal */,
+			);
+			path = NOTES;
+			sourceTree = "<group>";
+		};
 		D7F8016E20CF1C3B00B8CA7F = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +170,7 @@
 		D7F8017920CF1C3B00B8CA7F /* Congressional App Challenge 2018 */ = {
 			isa = PBXGroup;
 			children = (
+				D7CF870B20CF2590007D107D /* NOTES */,
 				D764505720CF242B00490D0A /* DELEGATES */,
 				D764505420CF23DF00490D0A /* SCENES */,
 				D7F801AD20CF223E00B8CA7F /* TERMINAL-DEBUGGING */,
@@ -350,13 +372,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7CF871020CF25FB007D107D /* NOTES.c in Sources */,
 				D7F8017E20CF1C3B00B8CA7F /* Congressional_App_Challenge_2018.xcdatamodeld in Sources */,
 				D7F801B620CF22B500B8CA7F /* codetracking.c in Sources */,
 				D7F801BA20CF22EC00B8CA7F /* compiledebugging.cpp in Sources */,
 				D7F8017B20CF1C3B00B8CA7F /* AppDelegate.swift in Sources */,
+				D7CF871220CF2612007D107D /* NOTES.cpp in Sources */,
 				D7F8018020CF1C3B00B8CA7F /* MasterViewController.swift in Sources */,
 				D7F801B120CF226300B8CA7F /* feedback.c in Sources */,
 				D7F8018220CF1C3B00B8CA7F /* DetailViewController.swift in Sources */,
+				D7CF871420CF262B007D107D /* NOTES.metal in Sources */,
+				D7CF870E20CF25DA007D107D /* NOTES.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
