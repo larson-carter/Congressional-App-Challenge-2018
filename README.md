@@ -1,11 +1,8 @@
 ## Welcome To My Submission
 
-The setup is really easy. All you have to do is download this project's "master" branch then open/expand/extract it. Then you open the project in XCode. Then you press they play button then it will run.
+The setup is really easy. All you have to do is download this project's "master" branch. When it is on the Desktop open/expand/extract it. Then you open the project in XCode. Then you press they play button then it will run.
 
-
-You can use the [editor on GitHub](https://github.com/larsonthekidrs/Congressional-App-Challenge-2018/edit/gh-pages/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If you need more help look at this [video](linktothevideo).
 
 [Developer] {Larson Carter - larsonthekidrs}
 
