@@ -1,12 +1,13 @@
 # Welcome To My Submission
 
+[Developer] {Larson Carter - larsonthekidrs}
+
+## SETUP \ HOW TO USE
+
 The setup is really easy. All you have to do is download this project's "master" branch. When it is on the Desktop open/expand/extract it. Then you open the project in XCode. Then you press they play button then it will run.
 
 If you need more help look at this [video](assets/).
 
-[Developer] {Larson Carter - larsonthekidrs}
-
-## Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
