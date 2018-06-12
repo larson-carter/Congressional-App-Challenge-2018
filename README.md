@@ -1,8 +1,8 @@
-## Welcome To My Submission
+# Welcome To My Submission
 
 The setup is really easy. All you have to do is download this project's "master" branch. When it is on the Desktop open/expand/extract it. Then you open the project in XCode. Then you press they play button then it will run.
 
-If you need more help look at this [video](linktothevideo).
+If you need more help look at this [video](assets/).
 
 [Developer] {Larson Carter - larsonthekidrs}
 
